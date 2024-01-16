@@ -1,0 +1,101 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.title {
+    padding: 0px 10px;
+    font-size: 25px;
+}
+
+.list {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.item {
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.item:hover {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.check input[type='checkbox'] {
+    accent-color: rgb(163, 182, 111);
+}
+
+.check input[type='checkbox']:hover {
+    cursor: pointer;
+    /* border: 1px solid white; */
+    /* accent-color: yellow; */
+} 
+
+.check-text {
+    font-size: 20px;
+    /* text-decoration: line-through 1px; */
+}
+
+span {
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+}
+
+button:hover {
+    color: rgb(163, 182, 111);
+}
+
+.add-item {
+    position: fixed;
+    bottom: 10px;
+    left: 50px;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+#x {
+    position: relative;
+    top: 2px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.clear{
+    position: fixed;
+    bottom: 9px;
+    left: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+#x:hover {
+    color: white;
+}
+
+.clear:hover {
+    background-color: rgb(163, 182, 111);
+    border-color: rgb(163, 182, 111);
+}
